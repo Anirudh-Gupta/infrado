@@ -45,6 +45,6 @@ end
 gem "devise"
 gem "rails_admin"
 gem "paperclip", '3.4.2'
-gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production ###fix for rails4 asset pipeline on heroku
 
 

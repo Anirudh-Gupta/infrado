@@ -30,6 +30,8 @@ RailsAdmin.config do |config|
       field :publishing_date
       field :issuing_authority
       field :state
+      field :tags
+      field :types
       field :document
     end
   end
